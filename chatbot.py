@@ -1,10 +1,10 @@
 def get_response(user_input):
-    if user_input.lower() == "bye":
-        return "Goodbye! :wave:"
-    return "I'm Branch 2 AI bot."
+    if user_input.lower() == "hi":
+        return "Hi there! 👋"
+    return "I'm Branch 1 bot."
 
 def main():
-    print("ChatBot v2 - Branch 2 AI")
+    print("ChatBot v2 - Branch 1")
     while True:
         user_input = input("You: ")
         response = get_response(user_input)
